@@ -1,0 +1,29 @@
+h1{
+    text-align: center; /*alineacion del texto */
+}
+
+#messi{
+    padding-left: 300px;
+}
+
+h2{
+    color:white; /* color de la tipografia */
+    border: 3px solid red;
+    background-color:black; /* color del fondo */
+    font-size: 30px;
+    padding-left: 10px ;
+}
+
+.destacado{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#listas{
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    padding-left: 15px;
+}
