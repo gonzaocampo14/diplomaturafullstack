@@ -1,0 +1,39 @@
+h1 {
+    text-align: center; /* alineacion del texto */
+}
+
+.messi {
+    padding-left: 370px; /* corre la foto */
+}
+
+#messi {
+    box-shadow: 10px 10px 13px 10px rgba(0,0,0,1); 
+}
+
+h2 {
+    color:white; /* color de la tipografia */
+    border: 3px solid red; /* crea el borde */
+    background-color:black; /* color del fondo */
+    font-size: 30px;
+    padding-left: 10px ;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,1);
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(101,3,3,1) 35%, rgba(220,7,11,1) 70%, rgba(255,0,0,0.8407738095238095) 100%); /* degrade de color */
+}
+
+.destacado {
+    color: blue;
+    font-weight: bold; /* con font se edita la letra */
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#listas {
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    padding-left: 15px;
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(101,3,3,1) 35%, rgba(220,7,11,1) 70%, rgba(255,0,0,0.8407738095238095) 100%);
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,1);
+}
