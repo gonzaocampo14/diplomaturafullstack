@@ -17,6 +17,7 @@
 #contenedor2 {
     background-color: red;
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
 }
 

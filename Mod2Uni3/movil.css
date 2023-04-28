@@ -1,0 +1,48 @@
+@media screen and (min-width: 280px) and (max-width: 800px) {
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+	}
+
+#contenedor {
+	width: 800px;
+	background: #016351;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+
+nav {
+	background: orangered;
+	width: 800px;
+}
+
+ul {
+	list-style-type:none;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+    display: flex;
+    align-content: space-between;
+    padding-bottom: 15px;
+}
+
+section {
+	background: #F1F2C0;
+	margin: 0;
+	width: 800px;
+    border: solid 1px #000;    
+}
+
+aside {
+	background: #CCC59E;
+	width: 800px;
+}
+
+}
