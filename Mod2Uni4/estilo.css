@@ -1,0 +1,27 @@
+.container-fluid {
+    background-color: #EF3611;
+}
+
+.container-fluid a {
+    color: white;
+}
+
+.container-fluid a:hover {
+    color: lightblue;
+    display: flex;
+}
+
+#form {
+    background-color: white;
+    padding-top: 10px;
+}
+
+#form h2 {
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#acordeon {
+    padding-top: 20px;
+}
