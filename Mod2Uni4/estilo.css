@@ -1,4 +1,4 @@
-.container-fluid {
+#nav{
     background-color: #EF3611;
 }
 
@@ -12,16 +12,15 @@
 }
 
 #form {
-    background-color: white;
-    padding-top: 10px;
+    margin: 10px 0 0 10px;
 }
 
-#form h2 {
-    margin-top: 15px;
-    font-size: larger;
-    font-weight: bold;
+#carouselExample {
+    height: 700px;
+    width: 700px;
 }
 
-#acordeon {
-    padding-top: 20px;
+.carousel-inner {
+    height: 700px;
+    width: 700px;
 }
