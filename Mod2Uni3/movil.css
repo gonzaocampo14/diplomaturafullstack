@@ -7,7 +7,7 @@ body {
 	}
 
 #contenedor {
-	width: 800px;
+	width: 100%;
 	background: #016351;
 	margin-right:auto;
 	margin-left:auto;
@@ -16,7 +16,7 @@ body {
 
 nav {
 	background: orangered;
-	width: 800px;
+	width: 100%;
 }
 
 ul {
@@ -36,13 +36,13 @@ a {
 section {
 	background: #F1F2C0;
 	margin: 0;
-	width: 800px;
+	width: 100%;
     border: solid 1px #000;    
 }
 
 aside {
 	background: #CCC59E;
-	width: 800px;
+	width: 100%;
 }
 
 }
