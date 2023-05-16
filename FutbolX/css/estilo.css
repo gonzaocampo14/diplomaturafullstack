@@ -1,0 +1,105 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Inicio Home */
+
+header {
+    background-color: #159900;
+    padding: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #1EDE00;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(21, 153, 0, 0.3);
+}
+
+nav ul li a.activo {
+    background-color: rgba(21, 153, 0, 0.3);
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #159900;
+    font-weight: 500;
+}
+
+/* Fin Home */
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid #ccc;
+    width: 18%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.persona img {
+    width: 150px;
+    max-width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.persona h5, .persona h6 {
+    color: #159900;
+    margin: 0;
+    margin-top: 10px;
+}
