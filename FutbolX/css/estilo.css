@@ -4,8 +4,6 @@ body {
     line-height: 20px;
 }
 
-/* Inicio Home */
-
 header {
     background-color: #159900;
     padding: 16px;
@@ -21,6 +19,19 @@ header h1 {
     margin-left: 10px;
 }
 
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+} 
+
+header ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
 nav {
     background-color: #1EDE00;
     margin-bottom: 20px;
@@ -31,7 +42,6 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
-
 }
 
 nav ul li {
@@ -74,18 +84,15 @@ h2 {
     font-weight: 500;
 }
 
-/* Fin Home */
-
 /* Inicio Equipos */
 
-ul {
+.equipos ul{
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
 
-ul li a {
+.equipos ul li a {
     color: #000;
     text-decoration: none;
     font-size: 20px;
@@ -136,3 +143,27 @@ ul li a {
 }
 
 /* Fin Nosotros */
+
+/* Inicio Actualidad */
+    .actualidad p {
+        border-bottom: solid 1px #000;
+        padding-bottom: 10px;
+    }
+/* Fin Actualidad */
+
+/* Inicio login + registro */
+
+.formulario{
+    width: 70%;
+    gap: 24px;
+}
+
+.formulario p label {
+    min-width: 80px;
+}
+
+.dato {
+    width: 100%;
+}
+
+/* Fin login */

@@ -28,7 +28,7 @@
         <div class="holder">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a class="activo" href="equipos.html">Equipos</a></li>
+                <li><a href="equipos.html">Equipos</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="actualidad.html">Actualidad</a></li>
             </ul>
@@ -36,16 +36,35 @@
     </nav>
 
     <main class="holder">
-        <div class="titulo">
+        <div>
+            <h2>Registrarse</h2>
+            <form action="" class="formulario">
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" class="dato">
+                </p>
+                <p>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" class="dato">
+                </p>
+                <p>
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" class="dato">
+                </p>
+                <p>
+                    <label for="equipo">Seleccione su equipo:</label>
+                    <select name="">
+                        <option value="river">River Plate</option>
+                        <option value="boca">Boca Juniors</option>
+                        <option value="racing">Racing Club</option>
+                        <option value="independiente">Independiente</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" class="enviar" value="Registrarme">
+                </p>
+            </form>
         </div>
-        <section class="historia">
-            <div>
-                <h3>Historia</h3>
-            </div>
-            <div>
-                <h3>Titulos</h3>
-            </div>
-        </section>
     </main>
 
     <footer>
