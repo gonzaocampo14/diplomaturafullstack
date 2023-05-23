@@ -7,6 +7,7 @@ body {
 header {
     background-color: #159900;
     padding: 16px;
+    display: flex;
 }
 
 #pelota {
@@ -95,12 +96,15 @@ h2 {
     padding: 0;
 }
 
+.equipos ul li {
+    padding-bottom: 10px;
+}
+
 .equipos ul li a {
     color: #000;
     text-decoration: none;
     font-size: 20px;
     padding: 3px 6px;
-    display: block;
 }
 
 .titulo h2 {
