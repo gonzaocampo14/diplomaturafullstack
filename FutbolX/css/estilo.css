@@ -9,6 +9,10 @@ header {
     padding: 16px;
 }
 
+#pelota {
+    min-width: 60%;
+}
+
 header h1 {
     font-size: 40px;
     font-weight: 100;
