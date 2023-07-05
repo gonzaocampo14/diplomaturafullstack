@@ -6,10 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form id="form" name="form">
-    Escriba un texto de no más de 5 caracteres <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
-    <input type="button" onclick="validarCaract()" value="Enviar">
-    </form>
-    <script src="ejercicio2.js"></script>
+    Ingrese un texto de no mas de 20 caracteres: <textarea name="texto" id="texto" onkeyup="contadorCaract(this)" cols="30" rows="10"></textarea>
+    <p id="caract">0 caracteres</p>
+    <button type="submit">Enviar</button>
+
+    <script src="ejercicio2m.js"></script>
 </body>
 </html>
