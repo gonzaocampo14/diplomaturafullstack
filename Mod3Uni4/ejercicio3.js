@@ -51,3 +51,6 @@ var alumnos = [
     }
   
   ];
+
+  var notas = alumnos.filter(nota >= 7);
+  console.log(notas);
