@@ -7,10 +7,10 @@ const EquiposPage = (props) => {
         <h2>Clubes</h2>
         <div class="equipos">
             <ul>
-                <li><Link to="/riverplate">River Plate</Link><img src="img/river.jpg" width="40" alt="escudo river"/></li>
-                <li><Link to="/bocajuniors">Boca Juniors</Link><img src="img/voka.jpg" width="40" alt="escudo boca"/></li>
-                <li><Link to="/racing">Racing club</Link><img src="img/racing.jpg" width="25" alt="escudo racing"/></li>
-                <li><Link to="/independiente">Independiente</Link><img src="img/independiente.jpg" width="25" alt="escudo independiente"/></li>
+                <li><Link to="/riverplate">River Plate</Link><img src="./images/river.jpg" width="40" alt="escudo river"/></li>
+                <li><Link to="/bocajuniors">Boca Juniors</Link><img src="./images/voka.jpg" width="40" alt="escudo boca"/></li>
+                <li><Link to="/racing">Racing club</Link><img src="./images/racing.jpg" width="25" alt="escudo racing"/></li>
+                <li><Link to="/independiente">Independiente</Link><img src="./images/independiente.jpg" width="25" alt="escudo independiente"/></li>
             </ul>
         </div>
     </main>

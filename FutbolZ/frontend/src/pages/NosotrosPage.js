@@ -24,31 +24,31 @@ const NosotrosPage = (props) => {
             <h2>¿Quienes somos?</h2>
             <div class="personas">
             <div class="persona">
-                <img src="img/gallardo.jpg" alt="gallardo copa"/>
+                <img src="./images/gallardo.jpg" alt="gallardo copa"/>
                 <h5>Marcelo Gallardo</h5>
                 <h6>Director Técnico</h6>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est deleniti aliquam cupiditate natus officiis nulla, aperiam tempore ipsam, eius voluptate harum soluta id dignissimos obcaecati odio ab repellat et optio.</p>
             </div>
             <div class="persona">
-                <img src="img/juanfer.jpg" alt="juanfer quintero"/>
+                <img src="./images/juanfer.jpg" alt="juanfer quintero"/>
                 <h5>Juan Quintero</h5>
                 <h6>Gol en el 108'</h6>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nesciunt ex iure architecto a optio maxime ab tenetur? Quaerat ab commodi, cumque hic eos quibusdam cum reiciendis maxime totam eveniet.</p>
             </div>
             <div class="persona">
-                <img src="img/armani.jpg" alt="armani pulpo"/>
+                <img src="./images/armani.jpg" alt="armani pulpo"/>
                 <h5>Franco Armani</h5>
                 <h6>Arquero</h6>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis expedita natus rerum, officia vero quae sapiente quia, possimus ex voluptate eaque odit consequatur, eos cum animi omnis. Error, maiores doloremque?</p>
             </div>
             <div class="persona">
-                <img src="img/enzo.jpg" alt="enzo perez copa"/>
+                <img src="./images/enzo.jpg" alt="enzo perez copa"/>
                 <h5>Enzo Pérez</h5>
                 <h6>Capitán sin cinta</h6>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nobis aliquam alias obcaecati quaerat, praesentium, debitis eveniet provident distinctio laboriosam incidunt soluta! Esse error repellat aliquam officia recusandae amet quos.</p>
             </div>
             <div class="persona">
-                <img src="img/pity.jpg" alt="gonzalo pity martinez"/>
+                <img src="./images/pity.jpg" alt="gonzalo pity martinez"/>
                 <h5>Gonzalo Martínez</h5>
                 <h6>Gol en el 121'</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illo eaque error ullam est, voluptates dolore, minima veritatis ipsum, quod praesentium necessitatibus provident quas maxime doloribus voluptatum rem cumque esse?</p>

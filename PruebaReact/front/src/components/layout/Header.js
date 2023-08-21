@@ -1,17 +1,16 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 const Header = (props) => {
     return (
         <header>
         <div class="holder">
-            <img src="images/logo.png" width="100" alt="futbol"/>
+            <img src="img/logo.png" width="100" alt="futbol"/>
             <h1>Fútbol X</h1>
         </div>
         <div class="holder">
             <ul>
-                <li><Link to="/login">Iniciar Sesión</Link></li>
-                <li><Link to="/registro">Registrarse</Link></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
             </ul>
         </div>
     </header>
