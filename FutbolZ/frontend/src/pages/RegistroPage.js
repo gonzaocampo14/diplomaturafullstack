@@ -2,10 +2,10 @@ import React from 'react';
 
 const RegistroPage = (props) => {
     return (
-        <main class="holder">
+        <main className="holder">
         <div>
             <h2>Registrarse</h2>
-            <form action="" class="formulario">
+            <form action="" className="formulario">
                 <p>
                     <label for="email">Email:</label>
                     <input type="email"/>

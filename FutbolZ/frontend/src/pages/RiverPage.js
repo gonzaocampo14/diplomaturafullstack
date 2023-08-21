@@ -2,12 +2,12 @@ import React from 'react';
 
 const RiverPage = (props) => {
     return (
-        <main class="holder">
-            <div class="titulo">
+        <main className="holder">
+            <div className="titulo">
                 <h2>Club Atlético River Plate</h2>
                 <img src="./images/river.jpg" alt="escudo river plate"/>
             </div>
-            <section class="historia">
+            <section className="historia">
                 <div>
                     <h3>Historia</h3>
                     <p>El Club Atlético River Plate es una entidad polideportiva de Argentina. Fue fundado el 25 de mayo de

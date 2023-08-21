@@ -1,11 +1,12 @@
 import React from 'react';
+import '../styles/components/pages/LoginPage.css';
 
 const LoginPage = (props) => {
     return (
-        <main class="holder">
+        <main className="holder">
         <div>
             <h2>Iniciar sesión</h2>
-            <form action="" class="formulario">
+            <form action="" className="formulario">
                 <p>
                     <label for="usuario">Usuario:</label>
                     <input type="text"/>

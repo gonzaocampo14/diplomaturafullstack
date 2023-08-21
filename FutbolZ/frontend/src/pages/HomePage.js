@@ -1,12 +1,13 @@
 import React from 'react';
+import '../styles/components/pages/HomePage.css';
 
 const HomePage = (props) => {
     return (
-        <main class="holder">
+        <main className="holder">
         <div>
             <img src="./images/pelota.jpg" id="pelota" alt="pelota en cancha"/>
         </div>
-        <section class="bienvenidos">
+        <section className="bienvenidos">
             <h2>Bienvenidos</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, repellendus iste delectus culpa similique
                 fugiat quis alias, reiciendis dignissimos molestiae tempore, aliquid fuga? Adipisci nisi quaerat cumque

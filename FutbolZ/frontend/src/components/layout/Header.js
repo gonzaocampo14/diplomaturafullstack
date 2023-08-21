@@ -5,11 +5,11 @@ import '../../styles/components/layout/Header.css'
 const Header = (props) => {
     return (
         <header>
-        <div class="holder">
+        <div clasName="holder">
             <img src="images/logo.png" width="100" alt="futbol"/>
             <h1>Fútbol X</h1>
         </div>
-        <div class="holder">
+        <div className="holder">
             <ul>
                 <li><Link to="/login">Iniciar Sesión</Link></li>
                 <li><Link to="/registro">Registrarse</Link></li>

@@ -2,12 +2,12 @@ import React from 'react';
 
 const  BocaPage = (props) => {
     return (
-        <main class="holder">
-        <div class="titulo">
+        <main className="holder">
+        <div className="titulo">
             <h2>Boca Juniors</h2>
             <img src="./images/voka.jpg" alt="escudo boca"/>
         </div>
-        <section class="historia">
+        <section className="historia">
             <div>
                 <h3>Historia</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic quam ex accusamus dignissimos optio consectetur omnis, aliquid velit reprehenderit officiis earum dolorum possimus dolore placeat deserunt illo odio nesciunt. Error, molestias repellat? Illum, deserunt harum rem delectus consectetur distinctio quod minus magni, pariatur ab voluptatem veniam temporibus. Voluptatem reprehenderit in earum quasi adipisci accusamus, cupiditate nam unde assumenda veritatis alias iste consequuntur aspernatur consectetur totam ad maiores doloribus dolore, saepe eligendi omnis animi a magnam labore. Repellat natus, sit voluptate et facilis animi dicta ratione voluptatibus! Iure, voluptate eum? Vitae ipsum illo non sit. Laboriosam nesciunt odit deleniti eligendi autem quisquam, mollitia quos ullam animi nisi labore placeat, dignissimos at impedit iusto harum cum enim sapiente esse accusantium vel obcaecati.</p>

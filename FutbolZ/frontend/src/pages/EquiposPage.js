@@ -1,11 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import '../styles/components/pages/EquiposPage.css';
 
 const EquiposPage = (props) => {
     return (
-        <main class="holder">
+        <main className="holder">
         <h2>Clubes</h2>
-        <div class="equipos">
+        <div className="equipos">
             <ul>
                 <li><Link to="/riverplate">River Plate</Link><img src="./images/river.jpg" width="40" alt="escudo river"/></li>
                 <li><Link to="/bocajuniors">Boca Juniors</Link><img src="./images/voka.jpg" width="40" alt="escudo boca"/></li>

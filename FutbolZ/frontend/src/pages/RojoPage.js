@@ -2,12 +2,12 @@ import React from 'react';
 
 const RojoPage = (props) => {
     return (
-        <main class="holder">
-        <div class="titulo">
+        <main className="holder">
+        <div className="titulo">
             <h2>Club Atlético Independiente</h2>
             <img src="./images/independiente.jpg" alt="escudo independiente"/>
         </div>
-        <section class="historia">
+        <section className="historia">
             <div>
                 <h3>Historia</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus molestiae natus ab iste porro, tempore aspernatur molestias distinctio nemo quibusdam. Sint obcaecati, quisquam magnam aliquid pariatur itaque velit quibusdam.</p>

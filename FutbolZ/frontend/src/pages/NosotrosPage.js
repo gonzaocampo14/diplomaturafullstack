@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/components/pages/NosotrosPage.css';
 
 const NosotrosPage = (props) => {
     return (
-        <main class="holder">
-        <section class="objetivo">
+        <main className="holder">
+        <section className="objetivo">
             <h2>Objetivo</h2>
             <p>El objetivo del sitio es recopilar información de los equipos de la liga Argentina. Tener las
                 formaciones, fixtures, historias, etc.</p>
@@ -20,34 +21,34 @@ const NosotrosPage = (props) => {
                 nesciunt cum.</p>
         </section>
 
-        <section class="staff">
+        <section className="staff">
             <h2>¿Quienes somos?</h2>
-            <div class="personas">
-            <div class="persona">
+            <div className="personas">
+            <div className="persona">
                 <img src="./images/gallardo.jpg" alt="gallardo copa"/>
                 <h5>Marcelo Gallardo</h5>
                 <h6>Director Técnico</h6>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est deleniti aliquam cupiditate natus officiis nulla, aperiam tempore ipsam, eius voluptate harum soluta id dignissimos obcaecati odio ab repellat et optio.</p>
             </div>
-            <div class="persona">
+            <div className="persona">
                 <img src="./images/juanfer.jpg" alt="juanfer quintero"/>
                 <h5>Juan Quintero</h5>
                 <h6>Gol en el 108'</h6>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nesciunt ex iure architecto a optio maxime ab tenetur? Quaerat ab commodi, cumque hic eos quibusdam cum reiciendis maxime totam eveniet.</p>
             </div>
-            <div class="persona">
+            <div className="persona">
                 <img src="./images/armani.jpg" alt="armani pulpo"/>
                 <h5>Franco Armani</h5>
                 <h6>Arquero</h6>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis expedita natus rerum, officia vero quae sapiente quia, possimus ex voluptate eaque odit consequatur, eos cum animi omnis. Error, maiores doloremque?</p>
             </div>
-            <div class="persona">
+            <div className="persona">
                 <img src="./images/enzo.jpg" alt="enzo perez copa"/>
                 <h5>Enzo Pérez</h5>
                 <h6>Capitán sin cinta</h6>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nobis aliquam alias obcaecati quaerat, praesentium, debitis eveniet provident distinctio laboriosam incidunt soluta! Esse error repellat aliquam officia recusandae amet quos.</p>
             </div>
-            <div class="persona">
+            <div className="persona">
                 <img src="./images/pity.jpg" alt="gonzalo pity martinez"/>
                 <h5>Gonzalo Martínez</h5>
                 <h6>Gol en el 121'</h6>

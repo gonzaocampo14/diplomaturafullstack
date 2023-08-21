@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/components/pages/ActualidadPage.css';
 
 const ActualidadPage = (props) => {
     return (
-        <main class="holder">
+        <main className="holder">
         <h2>Actualidad</h2>
-        <div class="actualidad">
+        <div className="actualidad">
             <h3>Titulo</h3>
             <h4>Subtitulo</h4>
             <p>Contenido Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, maxime nam? Voluptate
