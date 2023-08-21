@@ -17,6 +17,9 @@ import BocaPage from "./pages/BocaPage";
 import RojoPage from "./pages/RojoPage";
 import RacingPage from "./pages/RacingPage";
 
+import './App.css';
+
+
 
 function App() {
     return (
