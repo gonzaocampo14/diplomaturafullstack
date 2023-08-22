@@ -5,7 +5,7 @@ const RiverPage = (props) => {
         <main className="holder">
             <div className="titulo">
                 <h2>Club Atlético River Plate</h2>
-                <img src="./images/river.jpg" alt="escudo river plate"/>
+                <img src="./images/river.jpg" alt="escudo river plate" />
             </div>
             <section className="historia">
                 <div>
@@ -34,7 +34,7 @@ const RiverPage = (props) => {
                 </div>
                 <div>
                     <h3>Titulos</h3>
-                    <img src="./images/titulosriver.jpg" alt="titulos river"/>
+                    <img src="./images/titulosriver.jpg" alt="titulos river" />
                 </div>
             </section>
         </main>

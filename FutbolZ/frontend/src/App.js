@@ -1,4 +1,3 @@
-//import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/layout/Header";
@@ -23,22 +22,22 @@ import './App.css';
 
 function App() {
     return (
-        <div className="App">            
+        <div className="App">
             <BrowserRouter>
-            <Header />
-            <Nav />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/login" element={<LoginPage />} />
-                <Route path="/registro" element={<RegistroPage />} />
-                <Route path="/actualidad" element={<ActualidadPage />} />
-                <Route path="/nosotros" element={<NosotrosPage />} />
-                <Route path="/equipos" element={<EquiposPage />} />
-                <Route path="/riverplate" element={<RiverPage/>} />
-                <Route path="/bocajuniors" element={<BocaPage/>} />
-                <Route path="/independiente" element={<RojoPage/>} />
-                <Route path="/racing" element={<RacingPage/>} />
-            </Routes>
+                <Header />
+                <Nav />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/login" element={<LoginPage />} />
+                    <Route path="/registro" element={<RegistroPage />} />
+                    <Route path="/actualidad" element={<ActualidadPage />} />
+                    <Route path="/nosotros" element={<NosotrosPage />} />
+                    <Route path="/equipos" element={<EquiposPage />} />
+                    <Route path="/riverplate" element={<RiverPage />} />
+                    <Route path="/bocajuniors" element={<BocaPage />} />
+                    <Route path="/independiente" element={<RojoPage />} />
+                    <Route path="/racing" element={<RacingPage />} />
+                </Routes>
             </BrowserRouter>
             <Footer />
         </div>

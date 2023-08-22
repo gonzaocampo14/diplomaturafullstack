@@ -1,21 +1,21 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../../styles/components/layout/Header.css'
 
 const Header = (props) => {
     return (
         <header>
-        <div clasName="holder">
-            <img src="images/logo.png" width="100" alt="futbol"/>
-            <h1>Fútbol X</h1>
-        </div>
-        <div className="holder">
-            <ul>
-                <li><Link to="/login">Iniciar Sesión</Link></li>
-                <li><Link to="/registro">Registrarse</Link></li>
-            </ul>
-        </div>
-    </header>
+            <div clasName="holder">
+                <img src="images/logo.png" width="100" alt="futbol" />
+                <h1>Fútbol X</h1>
+            </div>
+            <div className="holder">
+                <ul>
+                    <li><Link to="/login">Iniciar Sesión</Link></li>
+                    <li><Link to="/registro">Registrarse</Link></li>
+                </ul>
+            </div>
+        </header>
     )
 }
 
