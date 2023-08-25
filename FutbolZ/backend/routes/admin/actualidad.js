@@ -43,4 +43,12 @@ router.post('/new', async (req, res, next) => {
   }
 })
 
+router.get('/delete/:id', async (req, res, next) => {
+  var id = req.params.id;
+
+  await novedadesModels.deleteNovedad(id);
+  res.redirect('/admin/actualidad');
+  
+});
+
 module.exports = router;
