@@ -57,7 +57,7 @@ router.get('/edit/:id', async (req, res, next) => {
     novedad
   })
 
-})
+});
 
 router.post('/edit', async (req, res, next) => {
   try {
@@ -79,6 +79,6 @@ router.post('/edit', async (req, res, next) => {
       message: 'No fue posible modificar'
     })
   }
-})
+});
 
 module.exports = router;
