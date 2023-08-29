@@ -5,7 +5,7 @@ import '../../styles/components/layout/Header.css'
 const Header = (props) => {
     return (
         <header>
-            <div clasName="holder">
+            <div className="holder">
                 <img src="images/logo.png" width="100" alt="futbol" />
                 <h1>Fútbol X</h1>
             </div>
