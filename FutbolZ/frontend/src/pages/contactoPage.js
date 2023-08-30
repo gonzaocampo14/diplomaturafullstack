@@ -56,10 +56,9 @@ const ContactoPage = (props) => {
                     <p>
                         <input type="submit" value="Enviar" />
                     </p>
-                    {sending ? <p>Enviando...</p> : null}
-                    {msg ? <p>{msg}</p> : null}
-
                 </form>
+                {sending ? <p>Enviando...</p> : null}
+                {msg ? <p>{msg}</p> : null}
             </div>
         </main>
     )
