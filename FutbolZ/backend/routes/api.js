@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var novedadesModels = require('../models/actualidadModels');
 var cloudinary = require('cloudinary').v2;
+var nodemailer = require('nodemailer');
 
 router.get('/actualidad', async function(req, res, next) {
 
