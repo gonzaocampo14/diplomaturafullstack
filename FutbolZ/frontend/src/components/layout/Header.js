@@ -13,6 +13,7 @@ const Header = (props) => {
                 <ul>
                     <li><Link to="/login">Iniciar Sesión</Link></li>
                     <li><Link to="/registro">Registrarse</Link></li>
+                    <li><Link to="/contacto">Contacto</Link></li>
                 </ul>
             </div>
         </header>

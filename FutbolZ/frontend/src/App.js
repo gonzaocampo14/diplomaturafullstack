@@ -15,8 +15,10 @@ import RiverPage from "./pages/RiverPage";
 import BocaPage from "./pages/BocaPage";
 import RojoPage from "./pages/RojoPage";
 import RacingPage from "./pages/RacingPage";
+import ContactoPage from "./pages/contactoPage";
 
 import './App.css';
+
 
 
 
@@ -30,6 +32,7 @@ function App() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/login" element={<LoginPage />} />
                     <Route path="/registro" element={<RegistroPage />} />
+                    <Route path="/contacto" element={<ContactoPage />} />
                     <Route path="/actualidad" element={<ActualidadPage />} />
                     <Route path="/nosotros" element={<NosotrosPage />} />
                     <Route path="/equipos" element={<EquiposPage />} />
